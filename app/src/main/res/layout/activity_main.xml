@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity">
+
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toTopOf="parent"
+    android:orientation="horizontal"
+    >
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rb_any"
+        android:text="Any"
+        android:onClick="onRadioButtonClicked"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rb_programming"
+        android:text="Programming"
+        android:onClick="onRadioButtonClicked"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rb_misc"
+        android:text="Misc"
+        android:onClick="onRadioButtonClicked"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rb_dark"
+        android:text="Dark"
+        android:onClick="onRadioButtonClicked"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rb_pun"
+        android:text="Pun"
+        android:onClick="onRadioButtonClicked"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rb_spooky"
+        android:text="Spooky"
+        android:onClick="onRadioButtonClicked"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rb_christmas"
+        android:text="Christmas"
+        android:onClick="onRadioButtonClicked"/>
+
+
+</RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+<!--<com.google.android.material.imageview.ShapeableImageView-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--app:layout_constraintTop_toTopOf="parent"-->
+<!--android:src="@drawable/ic_baseline_arrow_back_24"-->
+<!--android:background="@color/black_800"-->
+<!--    />-->
